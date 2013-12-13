@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF9D82FA-FE5A-469E-ADDA-823F99A830B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PureWhiteSymphony</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E1501CA-3B6D-42E1-A535-B0578EC48912</key>
+		<string>https://github.com/mashiro-butterfly/PureWhiteSymphony.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PureWhiteSymphony.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E1501CA-3B6D-42E1-A535-B0578EC48912</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mashiro-butterfly/PureWhiteSymphony.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E1501CA-3B6D-42E1-A535-B0578EC48912</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E1501CA-3B6D-42E1-A535-B0578EC48912</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PureWhiteSymphony</string>
+		</dict>
+	</array>
+</dict>
+</plist>

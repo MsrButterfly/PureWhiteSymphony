@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95809C0C184A43E7004D01FA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95809C0A184A43CE004D01FA /* OpenGL.framework */; };
+		95E857C81849E2BD007A6D1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E857C71849E2BD007A6D1A /* main.cpp */; };
+		95E857CA1849E2BD007A6D1A /* PureWhiteSymphony.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 95E857C91849E2BD007A6D1A /* PureWhiteSymphony.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95E857C21849E2BD007A6D1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				95E857CA1849E2BD007A6D1A /* PureWhiteSymphony.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		954B8F36184AF5C700251DBF /* Line2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Line2D.h; path = include/Line2D.h; sourceTree = "<group>"; };
+		954B8F37184B06AD00251DBF /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = include/Vertex.h; sourceTree = "<group>"; };
+		954B8F38184B12E800251DBF /* Playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Playground.h; path = include/Playground.h; sourceTree = "<group>"; };
+		956654DC1849E3DB00A69BE3 /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Window.h; path = include/Window.h; sourceTree = "<group>"; };
+		956654DD1849E70A00A69BE3 /* Monitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Monitor.h; path = include/Monitor.h; sourceTree = "<group>"; };
+		956654DE1849E73700A69BE3 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base.h; path = include/Base.h; sourceTree = "<group>"; };
+		956654E01849F27900A69BE3 /* Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Size.h; path = include/Size.h; sourceTree = "<group>"; };
+		95809C0A184A43CE004D01FA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		95809C0D184A472D004D01FA /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Note.h; path = include/Note.h; sourceTree = "<group>"; };
+		95809C0E184A4846004D01FA /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = include/Rectangle.h; sourceTree = "<group>"; };
+		95809C0F184A48E3004D01FA /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Color.h; path = include/Color.h; sourceTree = "<group>"; };
+		95809C10184A53AD004D01FA /* Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Font.h; path = include/Font.h; sourceTree = "<group>"; };
+		95809C12184A54B6004D01FA /* Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Label.h; path = include/Label.h; sourceTree = "<group>"; };
+		95809C13184A5603004D01FA /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = include/Shape.h; sourceTree = "<group>"; };
+		95E857C41849E2BD007A6D1A /* PureWhiteSymphony */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PureWhiteSymphony; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E857C71849E2BD007A6D1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95E857C91849E2BD007A6D1A /* PureWhiteSymphony.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PureWhiteSymphony.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E857C11849E2BD007A6D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95809C0C184A43E7004D01FA /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956654DF1849F05100A69BE3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				956654DE1849E73700A69BE3 /* Base.h */,
+				956654E01849F27900A69BE3 /* Size.h */,
+				954B8F37184B06AD00251DBF /* Vertex.h */,
+				95809C13184A5603004D01FA /* Shape.h */,
+				95809C0F184A48E3004D01FA /* Color.h */,
+				956654DD1849E70A00A69BE3 /* Monitor.h */,
+				956654DC1849E3DB00A69BE3 /* Window.h */,
+				95809C0E184A4846004D01FA /* Rectangle.h */,
+				95809C0D184A472D004D01FA /* Note.h */,
+				954B8F38184B12E800251DBF /* Playground.h */,
+				95809C10184A53AD004D01FA /* Font.h */,
+				95809C12184A54B6004D01FA /* Label.h */,
+				954B8F36184AF5C700251DBF /* Line2D.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		95809C09184A43C2004D01FA /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				95809C0A184A43CE004D01FA /* OpenGL.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		95E857BB1849E2BD007A6D1A = {
+			isa = PBXGroup;
+			children = (
+				95E857C61849E2BD007A6D1A /* PureWhiteSymphony */,
+				95E857C51849E2BD007A6D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95E857C51849E2BD007A6D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E857C41849E2BD007A6D1A /* PureWhiteSymphony */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E857C61849E2BD007A6D1A /* PureWhiteSymphony */ = {
+			isa = PBXGroup;
+			children = (
+				95809C09184A43C2004D01FA /* framework */,
+				956654DF1849F05100A69BE3 /* include */,
+				95E857C71849E2BD007A6D1A /* main.cpp */,
+				95E857C91849E2BD007A6D1A /* PureWhiteSymphony.1 */,
+			);
+			path = PureWhiteSymphony;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E857C31849E2BD007A6D1A /* PureWhiteSymphony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E857CD1849E2BD007A6D1A /* Build configuration list for PBXNativeTarget "PureWhiteSymphony" */;
+			buildPhases = (
+				95E857C01849E2BD007A6D1A /* Sources */,
+				95E857C11849E2BD007A6D1A /* Frameworks */,
+				95E857C21849E2BD007A6D1A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureWhiteSymphony;
+			productName = PureWhiteSymphony;
+			productReference = 95E857C41849E2BD007A6D1A /* PureWhiteSymphony */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E857BC1849E2BD007A6D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = mashiroLab;
+			};
+			buildConfigurationList = 95E857BF1849E2BD007A6D1A /* Build configuration list for PBXProject "PureWhiteSymphony" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95E857BB1849E2BD007A6D1A;
+			productRefGroup = 95E857C51849E2BD007A6D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E857C31849E2BD007A6D1A /* PureWhiteSymphony */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E857C01849E2BD007A6D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E857C81849E2BD007A6D1A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95E857CB1849E2BD007A6D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-loglft",
+					"-lfreetype",
+					"-lglew",
+					"-lglfw",
+				);
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/freetype2 /usr/local/include";
+			};
+			name = Debug;
+		};
+		95E857CC1849E2BD007A6D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-loglft",
+					"-lfreetype",
+					"-lglew",
+					"-lglfw",
+				);
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/freetype2 /usr/local/include";
+			};
+			name = Release;
+		};
+		95E857CE1849E2BD007A6D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95E857CF1849E2BD007A6D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E857BF1849E2BD007A6D1A /* Build configuration list for PBXProject "PureWhiteSymphony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E857CB1849E2BD007A6D1A /* Debug */,
+				95E857CC1849E2BD007A6D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E857CD1849E2BD007A6D1A /* Build configuration list for PBXNativeTarget "PureWhiteSymphony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E857CE1849E2BD007A6D1A /* Debug */,
+				95E857CF1849E2BD007A6D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E857BC1849E2BD007A6D1A /* Project object */;
+}
