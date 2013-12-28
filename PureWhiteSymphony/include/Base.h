@@ -40,6 +40,7 @@ _MSR_END_
 #include <string>
 #include <algorithm>
 
+#include "Texture.h"
 #include "Vertex.h"
 #include "Size.h"
 #include "Color.h"

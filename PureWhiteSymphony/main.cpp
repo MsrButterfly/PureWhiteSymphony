@@ -64,6 +64,12 @@ int main(int argc, const char * argv[])
 //    MSR::Font avenir("/System/Library/Fonts/Avenir.ttc");
     MSR::Playground playground(*window, 7, .15f);
     
+    uint32_t texture = MSR::Texture("/Volumes/Backup/Others/Butterfly_flat.png");
+    if (!texture) {
+        exit(EXIT_FAILURE);
+    }
+    std::cout << "Texture loading completed: " << texture << std::endl;
+    
     while (!window -> shouldClose()) {
         
         MSR::Size2D<int> size = window -> frameButterSize();
@@ -81,13 +87,29 @@ int main(int argc, const char * argv[])
             glMatrixMode(GL_MODELVIEW);
         }
         
+        
+        
         shapes.push_back(&playground);
 
         for (auto &shape : shapes) {
             shape -> draw();
         }
-
+        
         shapes.clear();
+        
+        glLoadIdentity();
+        glEnable(GL_TEXTURE_2D);
+        glBindTexture(GL_TEXTURE_2D, texture);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+        
+        glColor3f(1.0, 1.0, 1.0);
+        glBegin(GL_QUADS); {
+            glTexCoord2f(0.0f, 1.0f); glVertex3f(ratio - 0.3, 0.9f, 0);
+            glTexCoord2f(0.0f, 0.0f); glVertex3f(ratio - 0.3, 0.7f, 0);
+            glTexCoord2f(1.0f, 0.0f); glVertex3f(ratio - 0.1, 0.7f, 0);
+            glTexCoord2f(1.0f, 1.0f); glVertex3f(ratio - 0.1, 0.9f, 0);
+        } glEnd();
         
         window -> swapBuffers();
         playground.update();

@@ -30,6 +30,7 @@ public:
     bool operator==(const Size2D &size) const {
         return width == size._width && height == size._width;
     }
+    
     bool operator!=(const Size2D &size) const {
         return width != size._width || height != size._height;
     }

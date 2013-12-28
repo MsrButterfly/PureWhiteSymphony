@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95809C0C184A43E7004D01FA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95809C0A184A43CE004D01FA /* OpenGL.framework */; };
+		959C1B9C186F194A0087ED23 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C1B9A186F193D0087ED23 /* CoreFoundation.framework */; };
 		95E857C81849E2BD007A6D1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E857C71849E2BD007A6D1A /* main.cpp */; };
 		95E857CA1849E2BD007A6D1A /* PureWhiteSymphony.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 95E857C91849E2BD007A6D1A /* PureWhiteSymphony.1 */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,8 @@
 		95809C10184A53AD004D01FA /* Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Font.h; path = include/Font.h; sourceTree = "<group>"; };
 		95809C12184A54B6004D01FA /* Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Label.h; path = include/Label.h; sourceTree = "<group>"; };
 		95809C13184A5603004D01FA /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = include/Shape.h; sourceTree = "<group>"; };
+		959C1B93186F0F3D0087ED23 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Texture.h; path = include/Texture.h; sourceTree = "<group>"; };
+		959C1B9A186F193D0087ED23 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		95E857C41849E2BD007A6D1A /* PureWhiteSymphony */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PureWhiteSymphony; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E857C71849E2BD007A6D1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		95E857C91849E2BD007A6D1A /* PureWhiteSymphony.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PureWhiteSymphony.1; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959C1B9C186F194A0087ED23 /* CoreFoundation.framework in Frameworks */,
 				95809C0C184A43E7004D01FA /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +70,7 @@
 				95809C13184A5603004D01FA /* Shape.h */,
 				95809C0F184A48E3004D01FA /* Color.h */,
 				956654DD1849E70A00A69BE3 /* Monitor.h */,
+				959C1B93186F0F3D0087ED23 /* Texture.h */,
 				956654DC1849E3DB00A69BE3 /* Window.h */,
 				95809C0E184A4846004D01FA /* Rectangle.h */,
 				95809C0D184A472D004D01FA /* Note.h */,
@@ -80,6 +85,7 @@
 		95809C09184A43C2004D01FA /* framework */ = {
 			isa = PBXGroup;
 			children = (
+				959C1B9A186F193D0087ED23 /* CoreFoundation.framework */,
 				95809C0A184A43CE004D01FA /* OpenGL.framework */,
 			);
 			name = framework;
@@ -259,6 +265,14 @@
 		95E857CE1849E2BD007A6D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-loglft",
+					"-lfreetype",
+					"-lglew",
+					"-lglfw",
+					"-lsoil",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -266,6 +280,14 @@
 		95E857CF1849E2BD007A6D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-loglft",
+					"-lfreetype",
+					"-lglew",
+					"-lglfw",
+					"-lsoil",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
